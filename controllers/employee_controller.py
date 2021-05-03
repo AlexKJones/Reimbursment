@@ -14,7 +14,7 @@ def route(app):
     @app.route("/employees", methods=['GET'])
     def get_all_employees():
         log(f"Indexing all employees")
-        return jsonify(employee_service.all_employees()), 200
+        return jsonify(EmployeeService.all_employees()), 200
 
     @app.route("/employees/<employee_id>", methods=['GET'])
     def get_employee(employee_id):

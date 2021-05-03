@@ -1,0 +1,34 @@
+logger - INFO - Indexing all employees
+werkzeug - INFO - 127.0.0.1 - - [02/May/2021 16:29:48] "[35m[1mGET /employees HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/employee_controller.py', reloading
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [02/May/2021 16:31:06] "[35m[1mGET /employees HTTP/1.1[0m" 500 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=1
+werkzeug - INFO - 127.0.0.1 - - [02/May/2021 16:32:49] "[35m[1mGET /employees/1 HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/employee_controller.py', reloading
+logger - INFO - Indexing all employees
+werkzeug - INFO - 127.0.0.1 - - [02/May/2021 16:36:03] "[35m[1mGET /employees HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/services/employee_service.py', reloading
+logger - INFO - Indexing all employees
+werkzeug - INFO - 127.0.0.1 - - [02/May/2021 16:37:57] "[35m[1mGET /employees HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/services/employee_service.py', reloading
+logger - INFO - Indexing all employees
+werkzeug - INFO - 127.0.0.1 - - [02/May/2021 16:39:04] "[35m[1mGET /employees HTTP/1.1[0m" 500 -
+logger - INFO - Indexing all employees
+werkzeug - INFO - 127.0.0.1 - - [02/May/2021 16:40:13] "[35m[1mGET /employees HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/services/employee_service.py', reloading
+logger - INFO - Indexing all employees
+werkzeug - INFO - 127.0.0.1 - - [02/May/2021 16:41:21] "[35m[1mGET /employees HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/employee_controller.py', reloading
+logger - INFO - Indexing all employees
+werkzeug - INFO - 127.0.0.1 - - [02/May/2021 16:46:58] "[35m[1mGET /employees HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/services/employee_service.py', reloading
+logger - INFO - Indexing all employees
+werkzeug - INFO - 127.0.0.1 - - [02/May/2021 16:48:38] "[35m[1mGET /employees HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/employee_controller.py', reloading
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [02/May/2021 16:48:48] "[35m[1mGET /employees HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/front_controller.py', reloading

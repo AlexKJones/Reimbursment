@@ -8,15 +8,16 @@ from logger import log
 class EmployeeDAOImpl(EmployeeDAO):
 
     def create_employee(self, employee):
-        sql = "INSERT INTO employees VALUES (DEFAULT, DEFAULT, %s, %s,) RETURNING *"
-
+        # empID, depID, SupervisorID, 'NAME', funds,  isDepHead, isBenCo, requests
+        sql = "INSERT INTO employees VALUES (DEFAULT, 1, %s, %s, 0, DEFAULT, DEFAULT, DEFAULT) RETURNING *"
+        # EX: DEFAULT, 1, 2, 'Jotaro Joestar', 0, false, false, DEFAULT
         cursor = connection.cursor()
         cursor.execute(sql, (employee.name, employee.funds))
         log(f"Creating an employee")
         connection.commit()
         record = cursor.fetchone()
 
-        new_employee = Employee(record[0], record[1], record[2], float(record[3]))
+        new_employee = Employee(record[0], record[1], record[2], record[3], record[4], record[5], record[6], record[7])
         return new_employee
 
     def get_employee(self, employee_id):
@@ -27,7 +28,7 @@ class EmployeeDAOImpl(EmployeeDAO):
         record = cursor.fetchone()
 
         if record:
-            return Employee(record[0], record[1], record[2], float(record[3]))
+            return Employee(record[0], record[1], record[2], record[3], record[4], record[5], record[6], record[7])
         else:
             return record
             # raise ResourceNotFound(f"Employee with employee_id: {employee_id} - Not Found")
@@ -41,7 +42,7 @@ class EmployeeDAOImpl(EmployeeDAO):
         employee_list = []
 
         for record in records:
-            employee = Employee(record[0], record[1], record[2], float(record[3]))
+            employee = Employee(record[0], record[1], record[2], record[3], record[4], record[5], record[6], record[7])
 
             employee_list.append(employee.json())
 
@@ -55,7 +56,7 @@ class EmployeeDAOImpl(EmployeeDAO):
         connection.commit()
         log(f"Updating an employee")
         record = cursor.fetchone()
-        new_employee = Employee(record[0], record[1], record[2], float(record[3]))
+        new_employee = Employee(record[0], record[1], record[2], record[3], record[4], record[5], record[6], record[7])
         return new_employee
 
     def delete_employee(self, employee_id):
