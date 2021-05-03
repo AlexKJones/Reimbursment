@@ -51,17 +51,19 @@ def route(app):
             return "no employee exists", 404
 
     @app.route("/employees/<employee_id>/requests/<request_id>", methods=['PUT'])
-    def update_request_with_id(employee_id, request_id):
+    def update_request_with_id(employee_id, request_id, req_funds,
+                 added_info, is_denied, denied_reason):
         try:
-            amount = request.json["amount"]
-            if employee_id.isdigit() and request_id.isdigit() and amount:
+
+            if employee_id.isdigit() and request_id.isdigit():
                 ret = [request.json() for request in
                        RequestDAOImpl.get_request_with_id(int(employee_id), int(request_id))]
                 if not ret:
                     log(f"Failed to update request for employee id={employee_id}")
                     return "Not a valid request", 404
                 log(f"Updating request for employee id={employee_id} with request id={request_id}")
-                return RequestServiceImpl.update_request_with_id(employee_id, request_id, amount)
+                return RequestServiceImpl.update_request_with_id(employee_id, request_id, req_funds,
+                 added_info, is_denied, denied_reason)
             else:
                 raise ValueError
         except ValueError:

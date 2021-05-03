@@ -193,3 +193,8 @@ werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraini
 logger - INFO - Viewing an employee
 logger - INFO - Creating request for employee id=5
 werkzeug - INFO - 127.0.0.1 - - [03/May/2021 18:14:34] "[35m[1mPOST /employees/5/requests HTTP/1.1[0m" 500 -
+logger - INFO - Deleted request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 18:34:56] "[37mDELETE /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 18:35:03] "[33mGET /employees/5/requests/1 HTTP/1.1[0m" 404 -
