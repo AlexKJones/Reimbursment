@@ -8,8 +8,11 @@ from models.request import Request
 class RequestServiceImpl(RequestService):
 
     @classmethod
-    def create_request(cls, employee_id, amount):
-        return RequestDAOImpl.create_request(int(employee_id), int(amount)), 201
+    def create_request(cls, employee_id, employee_name, request_for, req_funds, req_type, info, pass_grade, event_date,
+                       submit_date):
+        return RequestDAOImpl.create_request(int(employee_id), str(employee_name), str(request_for), int(req_funds),
+                                             str(req_type), str(info), int(pass_grade), int(event_date),
+                                             int(submit_date)), 201
 
     @classmethod
     def get_all_requests_for_employee(cls, employee_id):

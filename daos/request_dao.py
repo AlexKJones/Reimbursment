@@ -4,7 +4,8 @@ from abc import abstractmethod, ABC
 class RequestDAO(ABC):
 
     @abstractmethod
-    def create_request(self, employee_id, amount):
+    def create_request(self, employee_id, employee_name, request_for, req_funds, req_type, info, pass_grade, event_date,
+                       submit_date):
         pass
 
     @abstractmethod

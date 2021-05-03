@@ -8,16 +8,16 @@ from logger import log
 class EmployeeDAOImpl(EmployeeDAO):
 
     def create_employee(self, employee):
-        # empID, depID, SupervisorID, 'NAME', funds,  isDepHead, isBenCo, requests
-        sql = "INSERT INTO employees VALUES (DEFAULT, 1, %s, %s, 0, DEFAULT, DEFAULT, DEFAULT) RETURNING *"
+        # empID, depID, SupervisorID, 'NAME',  isDepHead, isBenCo, requests
+        sql = "INSERT INTO employees VALUES (DEFAULT, 1, %s, %s, DEFAULT, DEFAULT, DEFAULT) RETURNING *"
         # EX: DEFAULT, 1, 2, 'Jotaro Joestar', 0, false, false, DEFAULT
         cursor = connection.cursor()
-        cursor.execute(sql, (employee.name, employee.funds))
+        cursor.execute(sql, (employee.supervisor_id, employee.name))
         log(f"Creating an employee")
         connection.commit()
         record = cursor.fetchone()
 
-        new_employee = Employee(record[0], record[1], record[2], record[3], record[4], record[5], record[6], record[7])
+        new_employee = Employee(record[0], record[1], record[2], record[3], record[4], record[5], record[6])
         return new_employee
 
     def get_employee(self, employee_id):
@@ -28,7 +28,7 @@ class EmployeeDAOImpl(EmployeeDAO):
         record = cursor.fetchone()
 
         if record:
-            return Employee(record[0], record[1], record[2], record[3], record[4], record[5], record[6], record[7])
+            return Employee(record[0], record[1], record[2], record[3], record[4], record[5], record[6])
         else:
             return record
             # raise ResourceNotFound(f"Employee with employee_id: {employee_id} - Not Found")
@@ -42,21 +42,21 @@ class EmployeeDAOImpl(EmployeeDAO):
         employee_list = []
 
         for record in records:
-            employee = Employee(record[0], record[1], record[2], record[3], record[4], record[5], record[6], record[7])
+            employee = Employee(record[0], record[1], record[2], record[3], record[4], record[5], record[6])
 
             employee_list.append(employee.json())
 
         return employee_list
 
     def update_employee(self, change):
-        sql = "UPDATE employees SET name=%s,funds=%s WHERE employee_id=%s RETURNING *"
+        sql = "UPDATE employees SET name=%s WHERE employee_id=%s RETURNING *"
 
         cursor = connection.cursor()
-        cursor.execute(sql, (change.name, change.funds, change.employee_id))
+        cursor.execute(sql, (change.name, change.employee_id))
         connection.commit()
         log(f"Updating an employee")
         record = cursor.fetchone()
-        new_employee = Employee(record[0], record[1], record[2], record[3], record[4], record[5], record[6], record[7])
+        new_employee = Employee(record[0], record[1], record[2], record[3], record[4], record[5], record[6])
         return new_employee
 
     def delete_employee(self, employee_id):

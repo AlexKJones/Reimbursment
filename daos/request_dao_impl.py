@@ -7,8 +7,10 @@ import logging
 
 class RequestDAOImpl(RequestDAO):
     @classmethod
-    def create_request(cls, employee_id, amount):
-        sql = f"insert into requests values ( default, {employee_id}, {amount} );"
+    def create_request(cls, employee_id, employee_name, request_for, req_funds, req_type, info, pass_grade, event_date,
+                       submit_date):
+        sql = f"insert into requests values ( default, {employee_id}, {employee_name}, {request_for}, {req_funds}," \
+              f" {req_type}, {info}, default, {pass_grade}, {event_date}, {submit_date}, default, default, default );"
         cursor = connection.cursor()
         cursor.execute(sql)
         connection.commit()
@@ -20,7 +22,7 @@ class RequestDAOImpl(RequestDAO):
         cursor = connection.cursor()
         cursor.execute(sql)
         records = cursor.fetchall()
-        requests = [Request(elem[0], elem[1], float(elem[2])) for elem in records]
+        requests = [Request(elem[0], elem[1], (elem[2])) for elem in records]
         return requests
 
     @classmethod
@@ -29,7 +31,7 @@ class RequestDAOImpl(RequestDAO):
         cursor = connection.cursor()
         cursor.execute(sql)
         records = cursor.fetchall()
-        requests = [Request(elem[0], elem[1], float(elem[2])) for elem in records]
+        requests = [Request(elem[0], elem[1], (elem[2])) for elem in records]
         return requests
 
     @classmethod

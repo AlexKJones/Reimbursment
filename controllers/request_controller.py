@@ -12,15 +12,19 @@ from services.request_service_impl import RequestServiceImpl
 
 def route(app):
     @app.route("/employees/<employee_id>/requests", methods=['POST'])
-    def create_employee_request(employee_id):
+    def create_employee_request(employee_id, employee_name, request_for, req_funds, req_type, info, pass_grade,
+                                event_date, submit_date):
         try:
-            amount = request.json["amount"]
-            if employee_id.isdigit() and amount == int or float:
+            # req_funds = request.json["req_funds"]
+            if employee_id.isdigit() and req_funds == int or float:
                 employee = EmployeeService.get_employee_by_id(employee_id=int(employee_id))
                 if employee == "Not a valid ID":
                     return "No such employee exist", 404
                 log(f"Creating request for employee id={employee_id}")
-                return jsonify(RequestServiceImpl.create_request(employee_id=employee_id, amount=amount)), 201
+                return jsonify(RequestServiceImpl.create_request(employee_id=employee_id, employee_name=employee_name,
+                                                                 request_for=request_for, req_funds=req_funds,
+                                                                 req_type=req_type, info=info, pass_grade=pass_grade,
+                                                                 event_date=event_date, submit_date=submit_date)), 201
             else:
                 raise ValueError
 
@@ -29,20 +33,7 @@ def route(app):
 
     @app.route("/employees/<employee_id>/requests/", methods=['GET'])
     def get_employee_requests(employee_id):
-        try:
-            if employee_id.isdigit():
-                log(
-                    f"Indexing requests for a employee")
-                return jsonify(
-                    RequestServiceImpl.get_all_requests_for_employee(employee_id))
-            else:
-                raise ValueError
-            if ret == []:
-                raise ValueError
-            else:
-                return jsonify(ret)
-        except ValueError:
-            return "no employee exists", 404
+        return jsonify(RequestServiceImpl.get_all_requests_for_employee(employee_id))
 
     @app.route("/employees/<employee_id>/requests/<request_id>", methods=['GET'])
     def get_employee_request_with_id(employee_id, request_id):

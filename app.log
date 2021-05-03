@@ -32,3 +32,164 @@ logger - INFO - Indexing all employees
 logger - INFO - Viewing employees
 werkzeug - INFO - 127.0.0.1 - - [02/May/2021 16:48:48] "[35m[1mGET /employees HTTP/1.1[0m" 500 -
 werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/front_controller.py', reloading
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 13:56:13] "[35m[1mGET /employees HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/employee_controller.py', reloading
+logger - INFO - Indexing all employees
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:04:53] "[35m[1mGET /employees HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/employee_controller.py', reloading
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:07:41] "[35m[1mGET /employees HTTP/1.1[0m" 500 -
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:17:45] "[37mGET /employees HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=3
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:17:56] "[37mGET /employees/3 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:19:07] "[33mGET /employees/ HTTP/1.1[0m" 404 -
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:19:09] "[37mGET /employees HTTP/1.1[0m" 200 -
+logger - INFO - Creating new employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:20:43] "[35m[1mPOST /employees HTTP/1.1[0m" 500 -
+logger - INFO - Creating new employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:21:02] "[35m[1mPOST /employees HTTP/1.1[0m" 500 -
+logger - INFO - Creating new employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:27:55] "[35m[1mPOST /employees HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/models/employee.py', reloading
+logger - INFO - Creating new employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:28:54] "[35m[1mPOST /employees HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/employee_dao_impl.py', reloading
+logger - INFO - Creating new employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:29:34] "[35m[1mPOST /employees HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/employee_dao_impl.py', reloading
+logger - INFO - Creating new employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:30:59] "[35m[1mPOST /employees HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/employee_dao_impl.py', reloading
+logger - INFO - Creating new employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:31:37] "[35m[1mPOST /employees HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/employee_dao_impl.py', reloading
+logger - INFO - Creating new employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:32:25] "[35m[1mPOST /employees HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/employee_dao_impl.py', reloading
+logger - INFO - Creating new employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:33:14] "[35m[1mPOST /employees HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/employee_dao_impl.py', reloading
+logger - INFO - Creating new employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:33:41] "[35m[1mPOST /employees HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/employee_dao_impl.py', reloading
+logger - INFO - Creating new employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:34:49] "[35m[1mPOST /employees HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/employee_dao_impl.py', reloading
+logger - INFO - Creating new employee
+logger - INFO - Creating an employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:35:06] "[37mPOST /employees HTTP/1.1[0m" 201 -
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:35:28] "[31m[1mPUT /employees HTTP/1.1[0m" 405 -
+logger - INFO - Updating employee info for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:35:36] "[35m[1mPUT /employees/5 HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/employee_dao_impl.py', reloading
+logger - INFO - Updating employee info for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:36:33] "[35m[1mPUT /employees/5 HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/employee_dao_impl.py', reloading
+logger - INFO - Updating employee info for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:37:24] "[35m[1mPUT /employees/5 HTTP/1.1[0m" 500 -
+logger - INFO - Viewing an employee
+logger - INFO - Deleted employee with employee id=5
+logger - INFO - Deleting an employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:39:30] "[37mDELETE /employees/5 HTTP/1.1[0m" 205 -
+logger - INFO - Creating new employee
+logger - INFO - Creating an employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:39:42] "[37mPOST /employees HTTP/1.1[0m" 201 -
+logger - INFO - Updating employee info for employee id=7
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:40:05] "[35m[1mPUT /employees/7 HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/employee_dao_impl.py', reloading
+logger - INFO - Updating employee info for employee id=7
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:40:54] "[35m[1mPUT /employees/7 HTTP/1.1[0m" 500 -
+logger - INFO - Updating employee info for employee id=7
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:41:25] "[35m[1mPUT /employees/7 HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/employee_dao_impl.py', reloading
+logger - INFO - Updating employee info for employee id=7
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:41:31] "[35m[1mPUT /employees/7 HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/employee_dao_impl.py', reloading
+logger - INFO - Updating employee info for employee id=7
+logger - INFO - Updating an employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:41:47] "[37mPUT /employees/7 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=7
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 14:44:09] "[37mGET /employees/7 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - get error for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 15:05:49] "[33mGET /employees/5 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 15:09:03] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 15:09:12] "[32mGET /employees/5/requests HTTP/1.1[0m" 308 -
+logger - INFO - Indexing requests for a employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 15:09:12] "[33mGET /employees/5/requests/ HTTP/1.1[0m" 404 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Indexing requests for a employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 15:10:25] "[33mGET /employees/5/requests/ HTTP/1.1[0m" 404 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Indexing requests for a employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 15:21:31] "[33mGET /employees/5/requests/ HTTP/1.1[0m" 404 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Indexing requests for a employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 15:21:48] "[33mGET /employees/5/requests/ HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 15:21:56] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 15:22:35] "[32mGET /employees/5/requests HTTP/1.1[0m" 308 -
+logger - INFO - Indexing requests for a employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 15:22:35] "[33mGET /employees/5/requests/ HTTP/1.1[0m" 404 -
+logger - INFO - Indexing requests for a employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 15:23:40] "[33mGET /employees/5/requests/ HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 15:24:11] "[32mGET /employees/5/requests HTTP/1.1[0m" 308 -
+logger - INFO - Indexing requests for a employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 15:24:11] "[33mGET /employees/5/requests/ HTTP/1.1[0m" 404 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Indexing requests for a employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 15:24:18] "[33mGET /employees/5/requests/ HTTP/1.1[0m" 404 -
+logger - INFO - Indexing requests for a employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 15:24:44] "[33mGET /employees/5/requests/ HTTP/1.1[0m" 404 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Indexing requests for a employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 15:25:03] "[33mGET /employees/5/requests/ HTTP/1.1[0m" 404 -
+logger - INFO - Indexing requests for a employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 15:27:12] "[33mGET /employees/5/requests/ HTTP/1.1[0m" 404 -
+logger - INFO - Indexing requests for a employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 15:27:45] "[33mGET /employees/5/requests/ HTTP/1.1[0m" 404 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Indexing requests for a employee
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 15:28:43] "[33mGET /employees/5/requests/ HTTP/1.1[0m" 404 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 18:00:57] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 18:01:34] "[32mGET /employees/5/requests HTTP/1.1[0m" 308 -
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 18:01:34] "[37mGET /employees/5/requests/ HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 18:02:21] "[35m[1mPOST /employees/5/requests HTTP/1.1[0m" 500 -
+logger - INFO - Viewing an employee
+logger - INFO - Creating request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 18:03:29] "[35m[1mPOST /employees/5/requests HTTP/1.1[0m" 500 -
+logger - INFO - Viewing an employee
+logger - INFO - Creating request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 18:04:05] "[35m[1mPOST /employees/5/requests HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Viewing an employee
+logger - INFO - Creating request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 18:04:11] "[35m[1mPOST /employees/5/requests HTTP/1.1[0m" 500 -
+logger - INFO - Viewing an employee
+logger - INFO - Creating request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 18:04:42] "[35m[1mPOST /employees/5/requests HTTP/1.1[0m" 500 -
+logger - INFO - Viewing an employee
+logger - INFO - Creating request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 18:05:08] "[35m[1mPOST /employees/5/requests HTTP/1.1[0m" 500 -
+logger - INFO - Viewing an employee
+logger - INFO - Creating request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 18:06:19] "[35m[1mPOST /employees/5/requests HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Viewing an employee
+logger - INFO - Creating request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 18:14:34] "[35m[1mPOST /employees/5/requests HTTP/1.1[0m" 500 -
