@@ -2,6 +2,7 @@ from flask import request, jsonify
 
 from models.user import User
 from daos.user_dao_impl import UserDAOImpl as u_dao
+from login import login
 
 
 def route(app):
@@ -9,9 +10,9 @@ def route(app):
     def hello():
         return "Welcome to the Tuition System!"
 
-    @app.route("/users", methods=['POST'])
-    def get_user():
+    @app.route("/login", methods=['POST'])
+    def loginEmployee():
         user = User.json_parse(request.json)
         # Bad practice here
-        returned_user = u_dao.get_user(user)
+        returned_user = login.login(user)
         return jsonify(returned_user)

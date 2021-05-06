@@ -17,8 +17,7 @@ class RequestService(ABC):
         pass
 
     @abstractmethod
-    def update_request_with_id(self, employee_id, request_id, req_funds, added_info, is_denied, denied_reason,
-                               is_approved):
+    def update_request_with_id(self, employee_id, request_id):
         pass
 
     @abstractmethod

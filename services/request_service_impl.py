@@ -28,10 +28,9 @@ class RequestServiceImpl(RequestService):
 
     @classmethod
     def update_request_with_id(cls, employee_id, request_id, req_funds, added_info, is_denied, denied_reason,
-                               is_approved):
-        ret = RequestDAOImpl.update_request_with_id(int(employee_id), int(request_id), int(req_funds),
-                                                    jsonify(added_info), bool(is_denied), jsonify(denied_reason),
-                                                    bool(is_approved))
+                             is_approved):
+        ret = RequestDAOImpl.update_request_with_id(int(employee_id), int(request_id), int(req_funds), added_info,
+                                                    is_denied, denied_reason, is_approved)
         if not ret:
             return "Not a valid request"
         return ret

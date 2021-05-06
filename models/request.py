@@ -44,6 +44,18 @@ class Request:
     @staticmethod
     def json_parse(json, employee_id):
         request = Request()
-        request.employee_id = json["employeeId"]
-        request.amount = json["amount"]
+        request.requestId = json["requestId"] if "requestId" in json else 0
+        request.employee_id = json["employeeId"] if "employeeId" in json else 0
+        request.employee_name = json["employee_name"]
+        request.request_for = json["request_for"]
+        request.req_funds = json["req_funds"]
+        request.req_type = json["req_type"]
+        request.info = json["info"]
+        request.added_info = json["added_info"]
+        request.pass_grade = json["pass_grade"]
+        request.event_date = json["event_date"]
+        request.submit_date = json["submit_date"]
+        request.is_denied = json["is_denied"]
+        request.denied_reason = json["denied_reason"]
+        request.is_approved = json["is_approved"]
         return request

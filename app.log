@@ -198,3 +198,757 @@ werkzeug - INFO - 127.0.0.1 - - [03/May/2021 18:34:56] "[37mDELETE /employees/5
 logger - INFO - Viewing an employee
 logger - INFO - Could not find request for employee id=5
 werkzeug - INFO - 127.0.0.1 - - [03/May/2021 18:35:03] "[33mGET /employees/5/requests/1 HTTP/1.1[0m" 404 -
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 19:56:19] "[37mGET /employees HTTP/1.1[0m" 200 -
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 19:56:20] "[37mGET /employees HTTP/1.1[0m" 200 -
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 19:56:21] "[37mGET /employees HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 20:04:50] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [03/May/2021 20:06:44] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/app.py', reloading
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [04/May/2021 11:50:25] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [04/May/2021 11:51:28] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [04/May/2021 11:52:04] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [04/May/2021 11:52:36] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [04/May/2021 11:52:50] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [04/May/2021 11:53:01] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [04/May/2021 11:53:01] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [04/May/2021 11:53:29] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [04/May/2021 11:53:45] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [04/May/2021 11:56:17] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 16:08:52] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/login/login.py', reloading
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:00:43] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:05:04] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:05:15] "[33mPOST /login/Giorno%20Giovanna HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:05:31] "[33mPOST /login/Giorno%20Giovanna HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:05:36] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:06:36] "[33mPOST /login/Giorno%20Giovanna HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:06:39] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:07:12] "[33mPOST /login/Giorno%20Giovanna HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:07:14] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:07:19] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:08:05] "[33mPOST /login/Giorno%20Giovanna HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:08:08] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:08:12] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:09:36] "[33mPOST /login/Giorno%20Giovanna HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:10:05] "[33mPOST /login/Giorno%20Giovanna HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:10:36] "[33mPOST /login/Giorno%20Giovanna HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:10:44] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:10:47] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:11:00] "[33mPOST /login/Josuke%20Joestar HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:14:08] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:17:06] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:25:58] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:35:02] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:39:57] "[37mGET /employees/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:42:27] "[31m[1mGET /employees/1requests1 HTTP/1.1[0m" 400 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:42:43] "[33mGET /employees/1/requests/1 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:43:13] "[33mGET /employees/5/requests/1 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=3
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:44:14] "[37mGET /employees/5/requests/3 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=3
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:45:05] "[37mGET /employees/5/requests/3 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=3
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:45:35] "[37mGET /employees/5/requests/3 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=3
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:46:36] "[37mGET /employees/5/requests/3 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=3
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:47:38] "[37mGET /employees/5/requests/3 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=3
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:48:30] "[37mGET /employees/5/requests/3 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=3
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:49:17] "[37mGET /employees/5/requests/3 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=3
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:50:49] "[37mGET /employees/5/requests/3 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=3
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:52:39] "[37mGET /employees/5/requests/3 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=3
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 18:55:21] "[37mGET /employees/5/requests/3 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:04:52] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:15:58] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:16:05] "[33mPOST /login/Giorno%20Giovanna HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:16:07] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:18:16] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:18:23] "[33mPOST /login/Giorno%20Giovanna HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:18:24] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:18:50] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:19:02] "[33mPOST /login/Josuke%20Joestar HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:19:11] "[33mGET /employees/4/requests/1 HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:21:33] "[31m[1mGET /employees/Giorno%20Giovanna HTTP/1.1[0m" 400 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:32:00] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:32:13] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:34:10] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:34:19] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:35:50] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:36:59] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:38:01] "[33mGET /employees//requests/1 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:38:12] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:39:09] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:39:24] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:39:27] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:39:47] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:39:51] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:40:00] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:40:04] "[33mGET /employees/4/requests/1 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:40:12] "[33mGET /employees/4/requests/1 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:43:16] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:43:23] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:44:03] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:44:06] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:50:57] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:51:01] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:51:08] "[33mGET /employees/4/requests/1 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:54:45] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:54:49] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:55:27] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:55:35] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:57:16] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:57:20] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:59:49] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 19:59:54] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:00:34] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:01:34] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:02:20] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:02:24] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:05:02] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:05:08] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:06:06] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:06:11] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:09:36] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:09:41] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:11:55] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:11:58] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:12:50] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:12:53] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:13:02] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=3
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:13:04] "[37mGET /employees/3 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:15:46] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:15:51] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:18:38] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:20:42] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:21:08] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:21:35] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:22:18] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:30:41] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:30:46] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:30:52] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:34:51] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:34:55] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:35:42] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:35:46] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:36:35] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:36:39] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:37:13] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:37:16] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:39:06] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:39:10] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:39:55] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:39:59] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:40:22] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 20:40:26] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 21:11:45] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 21:11:49] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 21:14:41] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 21:23:49] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 21:24:57] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 21:25:16] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 21:26:17] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 21:27:50] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 21:33:04] "[33mPOST /employees/ HTTP/1.1[0m" 404 -
+logger - INFO - Creating new employee
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 21:33:32] "[35m[1mPOST /employees HTTP/1.1[0m" 500 -
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 21:35:52] "[37mGET /employees HTTP/1.1[0m" 200 -
+logger - INFO - Creating new employee
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 21:36:22] "[35m[1mPOST /employees HTTP/1.1[0m" 500 -
+logger - INFO - Creating new employee
+logger - INFO - Creating an employee
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 21:37:12] "[37mPOST /employees HTTP/1.1[0m" 201 -
+logger - INFO - Creating new employee
+logger - INFO - Creating an employee
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 21:38:35] "[37mPOST /employees HTTP/1.1[0m" 201 -
+logger - INFO - Creating new employee
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 21:47:06] "[35m[1mPOST /employees HTTP/1.1[0m" 500 -
+logger - INFO - Creating new employee
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 21:48:32] "[35m[1mPOST /employees HTTP/1.1[0m" 500 -
+logger - INFO - Creating new employee
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 21:49:29] "[35m[1mPOST /employees HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/app.py', reloading
+logger - INFO - Creating new employee
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 21:50:12] "[35m[1mPOST /employees HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/employee_controller.py', reloading
+logger - INFO - Creating new employee
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 21:56:13] "[35m[1mPOST /employees HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/employee_controller.py', reloading
+logger - INFO - Creating new employee
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 21:56:59] "[35m[1mPOST /employees HTTP/1.1[0m" 500 -
+logger - INFO - Creating new employee
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 21:58:27] "[35m[1mPOST /employees HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 21:59:29] "[33mPOST /employees/ HTTP/1.1[0m" 404 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/employee_controller.py', reloading
+logger - INFO - Creating new employee
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:00:58] "[35m[1mPOST /employees/ HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:06:50] "[37mOPTIONS /employees/ HTTP/1.1[0m" 200 -
+logger - INFO - Creating new employee
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:06:50] "[35m[1mPOST /employees/ HTTP/1.1[0m" 500 -
+logger - INFO - Creating new employee
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:11:29] "[35m[1mPOST /employees/ HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:14:26] "[37mOPTIONS /employees/ HTTP/1.1[0m" 200 -
+logger - INFO - Creating new employee
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:14:26] "[31m[1mPOST /employees/ HTTP/1.1[0m" 400 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:16:43] "[37mOPTIONS /employees/ HTTP/1.1[0m" 200 -
+logger - INFO - Creating new employee
+logger - INFO - Creating an employee
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:16:43] "[37mPOST /employees/ HTTP/1.1[0m" 201 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:24:18] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:24:21] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:25:06] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:25:09] "[35m[1mGET /employees/5/requests/1 HTTP/1.1[0m" 500 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:25:21] "[35m[1mGET /employees/5/requests/1 HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:25:35] "[35m[1mGET /employees/5/requests/1 HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:25:47] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:26:13] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:26:37] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:27:00] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:28:25] "[35m[1mGET /employees/5/requests/1 HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:28:38] "[35m[1mGET /employees/5/requests/1 HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:28:46] "[35m[1mGET /employees/5/requests/1 HTTP/1.1[0m" 500 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:28:49] "[35m[1mGET /employees/5/requests/1 HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:29:03] "[35m[1mGET /employees/5/requests/1 HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:29:12] "[35m[1mGET /employees/5/requests/1 HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:29:19] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:30:07] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 22:34:30] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 23:02:48] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 23:03:51] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 23:04:00] "[37mOPTIONS /employees/5/requests HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 23:04:00] "[35m[1mPOST /employees/5/requests HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 23:04:55] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 23:05:04] "[37mOPTIONS /employees/5/requests/ HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 23:05:04] "[35m[1mPOST /employees/5/requests/ HTTP/1.1[0m" 500 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 23:06:37] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 23:06:46] "[37mOPTIONS /employees/5/requests/ HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 23:06:46] "[35m[1mPOST /employees/5/requests/ HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 23:07:24] "[35m[1mPOST /employees/5/requests HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 23:07:37] "[35m[1mPOST /employees/5/requests/ HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 23:09:55] "[31m[1mPUT /employees/5/requests/ HTTP/1.1[0m" 405 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 23:23:18] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 23:35:19] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/services/request_service_impl.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 23:36:34] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 23:44:28] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 23:45:56] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 23:46:36] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 23:47:54] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 23:48:20] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 23:50:02] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 23:50:28] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 23:55:57] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [05/May/2021 23:59:54] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:01:25] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:02:42] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:03:04] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:04:31] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:05:06] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:06:13] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:06:53] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:09:04] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:09:28] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/models/request.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:15:43] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:16:35] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:17:03] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:20:33] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:20:51] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:21:55] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:26:56] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:27:59] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:29:06] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:29:48] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:30:15] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:33:41] "[33mPUT /employees/5/requests/1/ HTTP/1.1[0m" 404 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:34:10] "[33mPUT /employees/5/requests/1/ HTTP/1.1[0m" 404 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:34:25] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:37:56] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:39:21] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:41:37] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:42:50] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:43:28] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:44:02] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 00:49:08] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 09:35:23] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 09:36:03] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 09:36:23] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 09:36:42] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 09:54:10] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 10:02:20] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 10:05:53] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 10:07:10] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 10:09:15] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 10:14:25] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 10:15:25] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 10:16:31] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 10:47:57] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 10:50:33] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 10:52:37] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 10:53:21] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/controllers/request_controller.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 11:34:18] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 11:35:45] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 11:37:32] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 11:38:19] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 11:38:27] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 11:38:47] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 11:39:41] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 11:39:55] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 11:40:40] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 11:41:51] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 11:42:37] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 11:43:19] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 11:43:51] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 11:44:41] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 11:45:52] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 11:45:59] "[35m[1mPUT /employees/5/requests/1/ HTTP/1.1[0m" 500 -
+werkzeug - INFO -  * Detected change in '/Users/alexjones/Desktop/RevatureTraining/reimbursment/daos/request_dao_impl.py', reloading
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 12:17:19] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -

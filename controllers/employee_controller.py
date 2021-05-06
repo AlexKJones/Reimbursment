@@ -11,7 +11,7 @@ from logger import log
 
 
 def route(app):
-    @app.route("/employees", methods=['GET'])
+    @app.route("/employees/", methods=['GET'])
     def get_all_employees():
         log(f"Indexing all employees")
         return jsonify(EmployeeService.all_employees()), 200
@@ -30,7 +30,7 @@ def route(app):
         except ResourceNotFound as r:
             return r.message, 404
 
-    @app.route("/employees", methods=["POST"])
+    @app.route("/employees/", methods=["POST"])
     def post_employee():
         try:
             log(f"Creating new employee")
