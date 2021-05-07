@@ -1,7 +1,7 @@
 class Request:
     def __init__(self, request_id=0, employee_id=0, employee_name="", request_for="", req_funds=0, req_type="", info="",
                  added_info="", pass_grade=0, event_date=None, submit_date=None, is_denied=False, denied_reason="",
-                 is_approved=False):
+                 is_approved=False, phase=0):
         self.request_id = request_id
         self.employee_id = employee_id
         self.employee_name = employee_name
@@ -16,6 +16,7 @@ class Request:
         self.is_denied = is_denied
         self.denied_reason = denied_reason
         self.is_approved = is_approved
+        self.phase = phase
 
     def get_request_id(self):
         return self.request_id
@@ -38,7 +39,8 @@ class Request:
             'submit_date': self.submit_date,
             'is_denied': self.is_denied,
             'denied_reason': self.denied_reason,
-            'is_approved': self.is_approved
+            'is_approved': self.is_approved,
+            'phase': self.phase
         }
 
     @staticmethod
@@ -58,4 +60,5 @@ class Request:
         request.is_denied = json["is_denied"]
         request.denied_reason = json["denied_reason"]
         request.is_approved = json["is_approved"]
+        request.phase = json["phase"]
         return request

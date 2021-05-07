@@ -57,11 +57,15 @@ def route(app):
     @app.route("/employees/<employee_id>/requests/<request_id>/", methods=['PUT'])
     def update_request_with_id(employee_id, request_id):
         try:
+
+            print(request_id)
             req_funds = reqq.json["req_funds"]
             added_info = reqq.json["added_info"]
             is_denied = reqq.json["is_denied"]
             denied_reason = reqq.json["denied_reason"]
             is_approved = reqq.json["is_approved"]
+            phase = reqq.json["phase"]
+            print(req_funds)
             if employee_id.isdigit() and request_id.isdigit():
                 ret = [request.json() for request in
                        RequestDAOImpl.get_request_with_id(int(employee_id), int(request_id))]
@@ -70,7 +74,7 @@ def route(app):
                 log(f"Updating request for employee id={employee_id} with request id={request_id}")
 
                 return RequestServiceImpl.update_request_with_id(employee_id, request_id, req_funds, added_info,
-                                                                 is_denied, denied_reason, is_approved), 200
+                                                                 is_denied, denied_reason, is_approved, phase), 200
             else:
                 raise ValueError
         except ValueError:
