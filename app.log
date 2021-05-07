@@ -1851,3 +1851,531 @@ werkzeug - INFO - 127.0.0.1 - - [06/May/2021 23:12:31] "[37mGET /employees/5 HT
 logger - INFO - Viewing an employee
 logger - INFO - Viewing request for employee id=5 with request id=1
 werkzeug - INFO - 127.0.0.1 - - [06/May/2021 23:12:34] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 23:42:24] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 23:45:38] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 23:47:35] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 23:48:07] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 23:49:45] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 23:49:49] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 23:51:21] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 23:51:22] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [06/May/2021 23:56:36] "[37mGET /employees/ HTTP/1.1[0m" 200 -
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:28:21] "[37mGET /employees/ HTTP/1.1[0m" 200 -
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:29:03] "[37mGET /employees/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:29:09] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:33:26] "[33mGET /employees/5/requests/2 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:33:31] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:33:33] "[33mGET /employees/5/requests/2 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:34:28] "[33mGET /employees/5/requests/2 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:34:31] "[33mGET /employees/5/requests/2 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:34:32] "[33mGET /employees/5/requests/2 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:35:27] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:35:29] "[33mGET /employees/5/requests/2 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:36:46] "[33mGET /employees/5/requests/2 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:36:50] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:36:51] "[33mGET /employees/5/requests/2 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:36:54] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:40:59] "[37mGET /employees/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:41:05] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:45:43] "[37mGET /employees/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:45:49] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:45:49] "[33mGET /employees/5/requests/5 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=55
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:45:50] "[33mGET /employees/55/requests/51 HTTP/1.1[0m" 404 -
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:47:14] "[37mGET /employees/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:47:20] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:47:23] "[33mGET /employees/5/requests/5 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=55
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:47:26] "[33mGET /employees/55/requests/51 HTTP/1.1[0m" 404 -
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:53:08] "[37mGET /employees/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:53:14] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:53:18] "[33mGET /employees/5/requests/5 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:53:21] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:56:10] "[37mGET /employees/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:56:17] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:56:20] "[33mGET /employees/5/requests/5 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 00:56:23] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:02:06] "[37mGET /employees/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:02:12] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:02:16] "[33mGET /employees/5/requests/5 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:02:19] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:03:06] "[37mGET /employees/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:03:12] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:03:16] "[33mGET /employees/5/requests/5 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:03:19] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:06:03] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:13:05] "[37mGET /employees/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:13:11] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:13:15] "[33mGET /employees/5/requests/5 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:13:18] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:13:23] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:13:26] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:13:29] "[37mOPTIONS /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:13:29] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:13:33] "[37mGET /employees/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:13:36] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:13:39] "[37mOPTIONS /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:13:39] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=2
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:13:42] "[37mGET /employees/2 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:13:45] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:13:48] "[37mOPTIONS /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:13:48] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:14:23] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:19:22] "[37mGET /employees/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:19:30] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:19:35] "[33mGET /employees/5/requests/5 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:19:41] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:19:50] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:19:55] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:19:58] "[37mOPTIONS /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:19:58] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:20:03] "[37mGET /employees/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:20:08] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:20:11] "[37mOPTIONS /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:20:11] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=2
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:20:17] "[37mGET /employees/2 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:20:22] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:20:25] "[37mOPTIONS /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:20:25] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:23:35] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:27:29] "[37mGET /employees/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:27:37] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:27:42] "[33mGET /employees/5/requests/5 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:27:47] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:27:56] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:28:02] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:28:04] "[37mOPTIONS /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:28:05] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:28:10] "[37mGET /employees/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:28:15] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:28:18] "[37mOPTIONS /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:28:18] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=2
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:28:23] "[37mGET /employees/2 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:28:28] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:28:31] "[37mOPTIONS /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:28:31] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:28:40] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:28:43] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:32:06] "[37mGET /employees/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:32:15] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:32:20] "[33mGET /employees/5/requests/5 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:32:25] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:32:34] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:32:40] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:32:53] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:33:06] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:33:18] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:34:23] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:39:10] "[37mGET /employees/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:39:18] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:39:23] "[33mGET /employees/5/requests/5 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:39:28] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:39:38] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:39:43] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:39:46] "[37mOPTIONS /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:39:46] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:39:51] "[37mGET /employees/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:39:56] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:39:59] "[37mOPTIONS /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:39:59] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=2
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:40:04] "[37mGET /employees/2 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:40:09] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:40:12] "[37mOPTIONS /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:40:13] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:40:21] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:40:24] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:40:37] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=2
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:40:40] "[37mGET /employees/5/requests/2 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:40:45] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=2
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:40:47] "[37mGET /employees/5/requests/2 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=55
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:40:49] "[33mGET /employees/55/requests/21 HTTP/1.1[0m" 404 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:42:06] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=2
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:42:08] "[37mPUT /employees/5/requests/2/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:43:05] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:43:45] "[37mGET /employees/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:43:53] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:43:58] "[33mGET /employees/5/requests/5 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:44:03] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:44:13] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:44:18] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:44:21] "[37mOPTIONS /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:44:21] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:44:26] "[37mGET /employees/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:44:31] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:44:34] "[37mOPTIONS /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:44:34] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=2
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:44:39] "[37mGET /employees/2 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:44:45] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:44:47] "[37mOPTIONS /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:44:48] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:44:56] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:44:59] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:45:13] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=2
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:45:15] "[37mGET /employees/5/requests/2 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:45:20] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=2
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:45:22] "[37mGET /employees/5/requests/2 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:45:24] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=2
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:46:11] "[37mGET /employees/5/requests/2 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:46:14] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=2
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:46:16] "[37mGET /employees/5/requests/2 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:46:26] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=2
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:46:27] "[37mGET /employees/5/requests/2 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:46:30] "[37mOPTIONS /employees/5/requests/2/ HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=2
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:46:30] "[37mPUT /employees/5/requests/2/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:46:38] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=2
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:46:38] "[37mGET /employees/5/requests/2 HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=2
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:48:49] "[37mPUT /employees/5/requests/2/ HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:48:51] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Indexing all employees
+logger - INFO - Viewing employees
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:52:23] "[37mGET /employees/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:52:35] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Could not find request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:52:44] "[33mGET /employees/5/requests/5 HTTP/1.1[0m" 404 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:52:50] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:53:08] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:53:18] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:53:21] "[37mOPTIONS /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:53:21] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:53:28] "[37mGET /employees/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:53:37] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:53:40] "[37mOPTIONS /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:53:40] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=2
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:53:47] "[37mGET /employees/2 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:53:56] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:53:59] "[37mOPTIONS /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:53:59] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=5
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:54:12] "[37mGET /employees/5 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:54:15] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:54:38] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=2
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:54:47] "[37mGET /employees/5/requests/2 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Used get request for employee id=4
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:54:56] "[37mGET /employees/4 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=2
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:55:02] "[37mGET /employees/5/requests/2 HTTP/1.1[0m" 200 -
+logger - INFO - Viewing an employee
+logger - INFO - Viewing request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:55:16] "[37mGET /employees/5/requests/1 HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=1
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:59:02] "[37mPUT /employees/5/requests/1/ HTTP/1.1[0m" 200 -
+logger - INFO - Updating request for employee id=5 with request id=2
+werkzeug - INFO - 127.0.0.1 - - [07/May/2021 01:59:04] "[37mPUT /employees/5/requests/2/ HTTP/1.1[0m" 200 -

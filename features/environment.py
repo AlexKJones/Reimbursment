@@ -1,17 +1,17 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.webdriver import WebDriver
 
-from CucumberEx.features.pages.wiki_home import WikiHomePage
+from features.pages.reimbursment_home import Reimbursment
 
 
 def before_all(context):
     driver: WebDriver = webdriver.Chrome(
         "/Users/alexjones/Desktop/RevatureTraining/chromedriver"
     )
-    wiki_home_page = WikiHomePage(driver)
+    main_page = Reimbursment(driver)
 
     context.driver = driver
-    context.wiki_home_page = wiki_home_page
+    context.main_page = main_page
     print("started")
 
 

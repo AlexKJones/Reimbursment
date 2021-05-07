@@ -7,7 +7,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.remote.webelement import WebElement
 
 from pages.reimbursment_home import Reimbursment
-WebElement = driver.find_element_by_name("q")
+# WebElement = driver.find_element_by_id("q")
 driver: WebDriver = webdriver.Chrome(
     "/Users/alexjones/Desktop/RevatureTraining/chromedriver")
 
@@ -21,7 +21,9 @@ try:
     sleep(2)
     main_page.login_name_button().send_keys(Keys.ENTER)
     sleep(2)
-    # assert
+    nameo = driver.find_element_by_id("name")
+    nameo = nameo.text
+    assert nameo == "Giorno Giovanna"
 
     # Get Request Data
     main_page.request_name_field().send_keys("5")
@@ -29,7 +31,9 @@ try:
     sleep(1)
     main_page.view_request().send_keys(Keys.ENTER)
     sleep(3)
-    # assert driver.find_element_by_id("req_name") == "Giorno Giovanna"
+    nameo = driver.find_element_by_id("req_name")
+    nameo = nameo.text
+    assert nameo == "Giorno Giovanna"
 
     # Check Buttons dont work
     main_page.denial_reason_field().send_keys("5")
@@ -46,7 +50,9 @@ try:
     sleep(2)
     main_page.changeFunds_button().send_keys(Keys.ENTER)
     sleep(4)
-    # assert driver.find_element_by_id("req_name") == "Giorno Giovanna"
+    nameo = driver.find_element_by_id("noti")
+    nameo = nameo.text
+    assert nameo == "This Button not for you atm."
 
 
 
